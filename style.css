@@ -293,9 +293,11 @@ a:hover {
   #copywrite {
     font-size: 15px;
   }
-
+  
   .font-change {
     font-size: 10px;
+    margin: 0;
+    padding: 0;
   }
 
 }
