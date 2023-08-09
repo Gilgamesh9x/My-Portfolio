@@ -1,0 +1,298 @@
+.background {
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  background-color: #bfdfec;
+  font-family: system-ui, calibri, serif;
+  background-repeat: repeat-x;
+  background-image: url("https://i.stack.imgur.com/b7z29.png");
+  animation: movement 10s linear infinite;
+  margin-bottom: 80px;
+}
+
+@keyframes movement {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 560px 0px;
+  }
+}
+
+h1 {
+  margin-top: 200px;
+  font-family: 'Caveat', cursive;
+  font-size: 100px;
+}
+
+h2 {
+  margin: 60px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 200px;
+  justify-content: center;
+}
+
+.flex-item {
+  flex-basis: 295px;
+}
+
+.cloud-height {
+  height: 150px;
+}
+
+/* second section */
+
+.my-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+h3 {
+  color: #78C1F3;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 23px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+  height: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to left, #78C1F3, #9BE8D8);
+}
+
+.my-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+h3 {
+  color: #78C1F3;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 23px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+  height: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to left, #78C1F3, #9BE8D8);
+}
+
+/* section three */
+
+.hundred-margin-bottom {
+  margin-bottom: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 300px 1fr;
+  gap: 20px;
+}
+
+.radius-img {
+  border-radius: 15%;
+  height: 200px;
+  width: 300px;
+}
+
+.item2 {
+  position: relative;
+  top: 30px;
+}
+
+h4 {
+  color: #78C1F3;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.text-right {
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* section four */
+
+.txt-color {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.custom-button {
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #78C1F3;
+}
+
+/* section five */
+
+.footer-background {
+  height: 220px;
+  background-color: #78C1F3;
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media {
+  text-decoration: none;
+  color: #1D5D9B;
+  font-size: 20px;
+}
+
+#copywrite {
+  font: italic;
+  font-size: 18px;
+  color: white;
+}
+
+.txt-decoration {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+
+.txt-decoration:hover {
+  color: red;
+}
+
+.font-change {
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+
+  .background {
+    min-height: auto;
+  }
+
+  .flex-item {
+    flex-basis: 50px;
+  }
+
+  .cloud-height {
+    height: 50px;
+    width: 50px;
+  }
+
+  h1 {
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  h2 {
+    margin: 30px;
+    font-size: 20px;
+  }
+
+  .flex-container {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* second section */
+
+  .my-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  /* section three */
+
+  .hundred-margin-bottom {
+    margin-bottom: 50px;
+  }
+
+  .grid-container {
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 150px 1fr;
+    gap: 10px;
+  }
+
+  .radius-img {
+    height: 100px;
+    width: 150px;
+  }
+
+  .item2 {
+    position: relative;
+    top: 1;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+   /* section four */
+
+  .custom-button {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .txt-color {
+    font-size: 15px;
+  }
+
+  /* section five */
+
+  .footer-background {
+    height: 180px;
+  }
+
+  .social-media {
+    font-size: 15px;
+  }
+
+  #copywrite {
+    font-size: 15px;
+  }
+
+}
+
